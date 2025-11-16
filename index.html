@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capital Pizza</title>
+
+    <!-- Ikona aplikacji -->
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="shortcut icon" href="icon.png" type="image/png">
+
+    <!-- Manifest PWA (opcjonalnie, jeśli używasz) -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Główny plik CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================================
+         GŁÓWNY NAGŁÓWEK
+    ========================================== -->
+    <header class="main-header">
+        <div class="header-top">
+            <div class="header-title">Capital Pizza</div>
+
+            <div class="header-info">
+                <div>🕒 12:00 – 22:00 (codziennie)</div>
+                <div>📍 Rzeszów, ul. Monte Cassino 14</div>
+            </div>
+
+            <div class="header-buttons">
+                <a href="https://capitalpizza.ordersmart.pl/1945/" target="_blank" class="btn-header">Zamów online</a>
+                <a href="https://maps.app.goo.gl/Uv5ZZWxGe4RbPmTh8" target="_blank" class="btn-header">Nawiguj</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- =========================================
+         GŁÓWNY BLOK MENU (CAŁA STRONA)
+    ========================================== -->
+    <main class="content">
+
+        <!-- Sekcje renderowane przez JS -->
+        <section id="pizza" class="menu-section"></section>
+
+        <section id="dodatki-pizza" class="menu-section"></section>
+
+        <section id="zestawy-obiadowe" class="menu-section"></section>
+
+        <section id="burgery-wieprz" class="menu-section"></section>
+
+        <section id="burgery-wolowina" class="menu-section"></section>
+
+        <section id="salatki" class="menu-section"></section>
+
+        <section id="pierogi" class="menu-section"></section>
+
+        <section id="dodatki" class="menu-section"></section>
+
+        <section id="sosy" class="menu-section"></section>
+
+        <section id="piwa" class="menu-section"></section>
+
+        <section id="napoje" class="menu-section"></section>
+
+    </main>
+
+    <!-- =========================================
+         STOPKA
+    ========================================== -->
+    <footer class="footer">
+        © Capital Pizza 2025 – Wszystkie prawa zastrzeżone
+    </footer>
+
+    <!-- Scroll to top -->
+    <button class="scroll-top">↑</button>
+
+    <!-- Główny skrypt JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
